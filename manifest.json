@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "josipjelic.vpn-switch",
+  "name": "VPN Switch",
+  "version": "0.1.0",
+  "author": "Josip Jelić",
+  "license": "MIT",
+  "description": "Save several Cisco AnyConnect VPNs with passwords in the keyring and switch each one on or off from the bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "VPN Switch",
+    "description": "Flip saved Cisco VPN connections on and off.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
